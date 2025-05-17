@@ -122,5 +122,9 @@ body:has(.SliderBar.Active) {
 		border-radius: var(--section-border-radius, 8px);
 
 		filter: saturate(1.5) brightness(0.8); // Blur-related
+		
+.BeautifulLyricsPage .BeautifulLyricsBackground-Container * { display: none; }
+.hide-background .BeautifulLyricsBackground-Container * { display: none; }
+.show-background .BeautifulLyricsBackground-Container * { display: block; }
 	}
 }
